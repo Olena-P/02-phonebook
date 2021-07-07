@@ -6,11 +6,12 @@ export const PhoneBook = styled.div`
   margin-left: auto;
   margin-right: auto;
   padding: 15px 30px;
-  background-color: rgb(39, 39, 110);
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.55);
-  border-radius: 5px;
+  background-color: rgb(207, 86, 255);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.55);
+  border-radius: 10px;
+  width: 420px;
 `;
 
 export const Title = styled.h1`
-  font-size: 50px;
+  /* font-size: 50px; */
 `;

@@ -28,6 +28,7 @@ export default function ContactForm({ onSubmit }) {
         }
         return errors;
       }}
+      
       onSubmit={(values, { setSubmitting, resetForm }) => {
         onSubmit(values);
         setSubmitting(false);

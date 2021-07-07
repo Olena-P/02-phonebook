@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import { List, Item, Button } from './ContactList.styled'
 
-export default function ContactList({contacts, deletedContact}) {
+export default function ContactList({contacts, onDeleteContact}) {
     return (
         <List>
             {contacts.map(({ name, number, id }) =>
@@ -9,7 +9,7 @@ export default function ContactList({contacts, deletedContact}) {
                     {name} : {number}
                     <Button
                         type="button"
-                        onClick={() =>deletedContact(id)}>
+                        onClick={() =>onDeleteContact(id)}>
                         Delete
                     </Button>
             </Item>

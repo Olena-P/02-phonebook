@@ -10,8 +10,7 @@ export const InputFilter = styled.input`
 `;
 
 export const LabelFilter = styled.label`
-  font-style: italic;
-  color: darkblue;
+  color: purple;
   font-size: 18px;
   font-weight: 600;
 `;

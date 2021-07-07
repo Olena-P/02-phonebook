@@ -8,6 +8,7 @@ export const Item = styled.li`
   display: flex;
   justify-content: space-between;
   font-size: 16px;
+  color: whitesmoke;
 
   &:not(:last-child) {
     margin-bottom: 8px;
@@ -25,7 +26,7 @@ export const Button = styled.button`
   transition: transform 0.25s cubic-bezier(0.77, 0, 0.175, 1);
 
   &:hover {
-    background-color: salmon;
+    background-color: rgb(243, 65, 65);
     transform: scale(1.05);
     border: none;
     outline: none;
